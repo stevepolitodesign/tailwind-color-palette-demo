@@ -1,0 +1,14 @@
+.bg--gradient {
+  background: linear-gradient(
+    to right,
+    map-get($tw_red, 600) 0%,
+    map-get($tw_orange, 600) 12.5%,
+    map-get($tw_yellow, 600) 25%,
+    map-get($tw_green, 600) 37.5%,
+    map-get($tw_teal, 600) 50%,
+    map-get($tw_blue, 600) 62.5%,
+    map-get($tw_indigo, 600) 75%,
+    map-get($tw_purple, 600) 87.5%,
+    map-get($tw_pink, 600) 100%
+  );
+}
